@@ -6162,3 +6162,5 @@ peda.execute("set step-mode on")
 peda.execute("set print pretty on")
 peda.execute("handle SIGALRM print nopass") # ignore SIGALRM
 peda.execute("handle SIGSEGV stop print nopass") # catch SIGSEGV
+peda.execute("set print demangle on") # convert cpp function name
+peda.execute("set print asm-demangle on") # convert cpp function name
